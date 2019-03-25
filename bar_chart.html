@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="">
+    <style>
+        #barchart {
+            width: 100%;
+        }
+
+        .line {
+            stroke: #fff;
+            stroke-width: .1;
+        }
+
+        .bar {
+            stroke: #83C11F;
+            stroke-width: 15;
+        }
+
+        text {
+            font-size: 25%;
+            fill: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <svg id="barchart" viewbox="0 0 300 800">
+        <g class="bgr">
+            <!--                <line class="line" x1="20" y1="100" x2="20" y2="20" />-->
+            <line class="line" x1="19.5" y1="100" x2="120" y2="100" />
+            <line class="line" x1="19.5" y1="80" x2="120" y2="80" />
+            <line class="line" x1="19.5" y1="60" x2="120" y2="60" />
+            <line class="line" x1="19.5" y1="40" x2="120" y2="40" />
+            <line class="line" x1="19.5" y1="20" x2="120" y2="20" />
+
+            <text x="12" y="101">0</text>
+            <text x="12" y="81">20</text>
+            <text x="12" y="61">40</text>
+            <text x="12" y="41">60</text>
+            <text x="12" y="21">80</text>
+            <text x="20" y="18">Pct.</text>
+
+            <text x="25" y="43">Cykel</text>
+            <text x="42" y="73">Personbil</text>
+            <text x="61" y="83">Knallert - 30</text>
+            <text x="79" y="90">Motercykel mv.</text>
+            <text x="105" y="96">Andet</text>
+
+        </g>
+        <g class="bars">
+            <line class="bar" x1="30" y1="100" x2="30" y2="45" />
+            <line class="bar" x1="50" y1="100" x2="50" y2="75" />
+            <line class="bar" x1="70" y1="100" x2="70" y2="85" />
+            <line class="bar" x1="90" y1="100" x2="90" y2="93" />
+            <line class="bar" x1="110" y1="100" x2="110" y2="98" />
+
+
+        </g>
+
+
+    </svg>
+
+
+
+    <script></script>
+</body>
+</html>

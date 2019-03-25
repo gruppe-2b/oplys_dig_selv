@@ -1,15 +1,148 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="da">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rådet for sikkertrafik - Oplys Dig Selv</title>
+    <title>Oplys Dig Selv</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css" integrity="sha384-QokYePQSOwpBDuhlHOsX0ymF6R/vLk/UQVz3WHa6wygxI5oGTmDTv8wahFOSspdm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/regular.css" integrity="sha384-FKw7x8fCxuvzBwOJmhTJJsKzBl8dnN9e2R4+pXRfYoHivikuHkzWyhKWDSMcGNK8" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css" integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
+    <div class="blur hide_blur"></div>
+    <header>
+        <nav id="desktop">
+            <logo>
+                <img src="rfst_logo_left.svg" alt="">
+            </logo>
+            <ul>
+                <li class="li-selected">KAMPANGER</li>
+                <li>RÅD &amp; VIDEN</li>
+                <li>BØRN &amp; UNGE</li>
+                <li>SAMARBEJDE</li>
+                <li>VIDEO</li>
+                <li>PRESSE</li>
+                <li>OM OS</li>
+                <img src="search001%20-%20E000.svg" alt="">
+            </ul>
+        </nav>
+        <div id="desktop_bread_crums">
+
+            <img class="first" src="left004%20-%20E045.svg" alt="">
+            <p>KAMPANGER</p>
+            <img class="second" src="left004%20-%20E045.svg" alt="">
+            <p>OPLYS DIG SELV</p>
+
+        </div>
+
+
+    </header>
+    <div class="mobil_nav">
+        <div class="closed">
+            <img class="logo" src="rfst_logo_left.svg" alt="">
+            <img class="menu_icon" src="menu001.svg" alt="">
+        </div>
+
+        <div class="open hide">
+            <div class="top">
+                <img class="logo" src="rfst_logo_left.svg" alt="">
+                <img class="menu_icon" src="x002.svg" alt="">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li class="li-selected">KAMPANGER <i class="fas fa-plus"></i></li>
+                    <li>RÅD &amp; VIDEN <i class="fas fa-plus"></i></li>
+                    <li>BØRN &amp; UNGE <i class="fas fa-plus"></i></li>
+                    <li>SAMARBEJDE <i class="fas fa-plus"></i></li>
+                    <li>VIDEO <i class="fas fa-plus"></i></li>
+                    <li>PRESSE <i class="fas fa-plus"></i></li>
+                    <li>OM OS <i class="fas fa-plus"></i></li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+
+    <section id="splash">
+        <div>
+            <img class="oplys_dig_selv" src="oplys_dig_selv_logo.svg" alt="">
+            <a href="" class="button">SE VIDEO</a> <br>
+
+
+        </div>
+
+    </section>
+
+    <section class="intro">
+        <h2>OPLYS DIG SELV</h2>
+        <p>Duis vestibulum elit vel neque pharetra vulputate. Quisque scelerisque nisi urna. Duis rutrum non risus in imperdiet. Proin molestie accumsan nulla sit amet mattis. Ut vel tristique neque. Praesent purus eros, aliquet sit amet venenatis in, sodales in odio. Curabitur ac ligula et purus cursus vulputate accumsan sit amet erat. Vestibulum ac mauris ut nisl maximus porta eu a libero. In hac habitasse platea dictumst. Proin augue urna, pretium vel mauris sed, lobortis rutrum libero.</p>
+    </section>
+
+
+
+
+    <section class="data_1">
+        <svg id="barchart" viewbox="0 0 120 80">
+            <g class="bgr">
+                <line class="line" x1="6" y1="70" x2="120" y2="70" />
+                <line class="line" x1="6" y1="50" x2="120" y2="50" />
+                <line class="line" x1="6" y1="30" x2="120" y2="30" />
+                <line class="line" x1="6" y1="14" x2="120" y2="14" />
+
+                <text x="2" y="71">0</text>
+                <text x="1" y="51">20</text>
+                <text x="1" y="31">40</text>
+                <text x="1" y="15">60</text>
+                <text x="6" y="13">Pct.</text>
+
+                <text x="15" y="16">Cykel</text>
+                <text x="32" y="42">Personbil</text>
+                <text x="51" y="58">Knallert - 30</text>
+                <text x="69" y="62">Motercykel mv.</text>
+                <text x="95" y="65">Andet</text>
+                <text x="6" y="75">kilde: <a class="dst" target="_blank" hreft="https://www.dst.dk/da/Statistik/bagtal/2019/2019-02-28-cyklen-er-oftere-involveret-naar-aeldre-kommer-til-skade-i-trafikken">Danmarks Statistik</a> </text> </g>
+            <g class="bars">
+                <line class="bar" x1="20" y1="70" x2="20" y2="18" />
+                <line class="bar" x1="40" y1="70" x2="40" y2="44" />
+                <line class="bar" x1="60" y1="70" x2="60" y2="60" />
+                <line class="bar" x1="80" y1="70" x2="80" y2="64" />
+                <line class="bar" x1="100" y1="70" x2="100" y2="66" />
+
+
+            </g>
+
+
+        </svg>
+
+
+        <div class="txt">
+            <h2>CYKLEN ER OFTERE INVOLVERET, NÅR PERSONER OVER 65 ÅR KOMMER TIL SKADE I TRAFIKKEN</h2>
+            <p>I årene 2007-2017 er der kommet flere personer i alderen 65-74 år som følge af den demografiske udvikling. Derfor er personskader ved trafikuheld udregnet pr. 1.000 indbygger i de enkelte aldersgrupper for at give et mere retvisende billede af udviklingen.
+
+                I 2017 var cyklen transportmidlet ved 48 pct. af trafikuheld for de 65 – 74 årige. I 2017 er den andel steget til 58 pct. Den modsatte udvikling for denne aldersgruppe ses, hvor transportmidlet er bil eller som fodgænger.
+
+            </p>
+
+        </div>
+    </section>
+
+
+
+
     <script src="script.js"></script>
 </body>
+
 
 </html>
